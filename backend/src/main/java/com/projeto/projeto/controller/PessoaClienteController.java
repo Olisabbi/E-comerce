@@ -20,7 +20,6 @@ public class PessoaClienteController {
 
     @PostMapping("/")
     public Pessoa inserir(@RequestBody PessoaClienteRequestDTO pessoaClienteRequestDTO){
-        
         return pessoaService.registrar(pessoaClienteRequestDTO);
     }
 
