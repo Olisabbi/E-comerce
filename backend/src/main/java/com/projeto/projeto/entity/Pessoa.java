@@ -32,7 +32,7 @@ public class Pessoa {
     private String email;
     private String codigoRecuperacaoSenha;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date dataValidadeCodigo;
+    private Date dataEnvioCodigo;
     private String senha;
     private String endereco;
     private String cep;
